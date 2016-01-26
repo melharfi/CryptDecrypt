@@ -1,0 +1,18 @@
+c:\users\root\documents\visual studio 2013\Projects\CryptDecrypt\CryptDecrypt\bin\Debug\CryptDecrypt.exe.config
+c:\users\root\documents\visual studio 2013\Projects\CryptDecrypt\CryptDecrypt\bin\Debug\CryptDecrypt.exe
+c:\users\root\documents\visual studio 2013\Projects\CryptDecrypt\CryptDecrypt\bin\Debug\CryptDecrypt.pdb
+c:\users\root\documents\visual studio 2013\Projects\CryptDecrypt\CryptDecrypt\obj\Debug\CryptDecrypt.Form1.resources
+c:\users\root\documents\visual studio 2013\Projects\CryptDecrypt\CryptDecrypt\obj\Debug\CryptDecrypt.Properties.Resources.resources
+c:\users\root\documents\visual studio 2013\Projects\CryptDecrypt\CryptDecrypt\obj\Debug\CryptDecrypt.csproj.GenerateResource.Cache
+c:\users\root\documents\visual studio 2013\Projects\CryptDecrypt\CryptDecrypt\obj\Debug\CryptDecrypt.exe
+c:\users\root\documents\visual studio 2013\Projects\CryptDecrypt\CryptDecrypt\obj\Debug\CryptDecrypt.pdb
+c:\users\root\documents\visual studio 2013\Projects\CryptDecrypt\CryptDecrypt\obj\Debug\CryptDecrypt.csprojResolveAssemblyReference.cache
+D:\project\CryptDecrypt\CryptDecrypt\bin\Debug\CryptDecrypt.exe.config
+D:\project\CryptDecrypt\CryptDecrypt\obj\Debug\CryptDecrypt.exe
+D:\project\CryptDecrypt\CryptDecrypt\obj\Debug\CryptDecrypt.pdb
+D:\project\CryptDecrypt\CryptDecrypt\bin\Debug\CryptDecrypt.exe
+D:\project\CryptDecrypt\CryptDecrypt\bin\Debug\CryptDecrypt.pdb
+D:\project\CryptDecrypt\CryptDecrypt\obj\Debug\CryptDecrypt.csprojResolveAssemblyReference.cache
+D:\project\CryptDecrypt\CryptDecrypt\obj\Debug\CryptDecrypt.Form1.resources
+D:\project\CryptDecrypt\CryptDecrypt\obj\Debug\CryptDecrypt.Properties.Resources.resources
+D:\project\CryptDecrypt\CryptDecrypt\obj\Debug\CryptDecrypt.csproj.GenerateResource.Cache
