@@ -27,6 +27,8 @@ If by any reason you afraid that your original file will be corrupted while encr
 
 And last step is enter an index of crypt, by default it's 1, in reality, it's not really a hard crypt algorithm, you can modify that if you want, AND you must do the same in the **DecryptFile()** method inside Manager, "**Manager.manager.DecryptFile()**. at MELHARFI-2D-Game-Engine
 
+The index should be between 0 until 255, both value are allowed.
+
 Finally you can push **Crypt** button	
 
 By the way, you can select many files in the same time, or even select a directory, then same parameters will be done for them all.
