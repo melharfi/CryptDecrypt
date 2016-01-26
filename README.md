@@ -23,7 +23,7 @@ After that you chose an extension to replace the original one to avoid recognizi
 https://github.com/melharfi/MELHARFI-2D-Game-Engine
 Do recognize the type of file because the extension value is crypt and stored inside the file ^^.
 
-If by any reason you afraid that you original file will be corrupted while encrypt it, you can check the "**Copie**" checkbox.
+If by any reason you afraid that your original file will be corrupted while encrypt it, you can check the "**Copie**" checkbox.
 
 And last step is enter an index of crypt, by default it's 1, in reality, it's not really a hard crypt algorithm, you can modify that if you want, AND you must do the same in the **DecryptFile()** method inside Manager, "**Manager.manager.DecryptFile()**. at MELHARFI-2D-Game-Engine
 
