@@ -164,7 +164,7 @@
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(319, 13);
             this.label5.TabIndex = 13;
-            this.label5.Text = "Indice dois être supérrieur ou égale à 0 et inférrieur ou égale à 255";
+            this.label5.Text = "Indice dois être supérrieur ou égale à 0 et inférrieur ou égale à 120";
             // 
             // Form1
             // 

@@ -56,9 +56,9 @@ namespace CryptDecrypt
                             indice.Focus();
                             return;
                         }
-                        else if (result && (_indice < 0 || _indice > 255))
+                        else if (result && (_indice < 0 || _indice > 120))
                         {
-                            MessageBox.Show("L'indice dois être superrieur ou égale 0 et inférieur ou égale à 255,\nC'est pourtant écris dessus BOUFFON");
+                            MessageBox.Show("L'indice dois être superrieur ou égale 0 et inférieur ou égale à 120,\nC'est pourtant écris dessus BOUFFON");
                             indice.Text = "";
                             indice.Focus();
                             return;
@@ -169,9 +169,9 @@ namespace CryptDecrypt
                     indice.Focus();
                     return;
                 }
-                else if (result && (_indice < 0 || _indice > 255))
+                else if (result && (_indice < 0 || _indice > 120))
                 {
-                    MessageBox.Show("L'indice dois être superrieur ou égale 0 et inférieur ou égale à 255,\nC'est pourtant écris à coté BOUFFON");
+                    MessageBox.Show("L'indice dois être superrieur ou égale 0 et inférieur ou égale à 120,\nC'est pourtant écris à coté BOUFFON");
                     indice.Text = "";
                     indice.Focus();
                     return;
