@@ -9,7 +9,7 @@ https://www.youtube.com/watch?v=D6VQARWxfvs
 Part 2
 https://www.youtube.com/watch?v=ufQObcknmVY
 
-As any game need to protect its asset, i build a small tool not really so complicated encrypted algorithm, but I think it's enough for me as it's not really a big or very important game FOR NOW ^^'
+As any game need to protect its asset, i build a small tool that use Rijndael AES encrypted algorithm
 
 So here is how to use it :
 
