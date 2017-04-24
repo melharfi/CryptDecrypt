@@ -87,7 +87,7 @@
             this.pathButton.Name = "pathButton";
             this.pathButton.Size = new System.Drawing.Size(348, 31);
             this.pathButton.TabIndex = 2;
-            this.pathButton.Text = "Parcourir ...";
+            this.pathButton.Text = "Find ...";
             this.pathButton.UseVisualStyleBackColor = true;
             this.pathButton.Click += new System.EventHandler(this.pathButton_Click);
             // 
