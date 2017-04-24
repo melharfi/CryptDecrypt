@@ -140,7 +140,7 @@ namespace CryptDecrypt
                     fsIn.Close();
                     cs.Close();
                     fsCrypt.Close();
-                    info.AppendText("\nFull path [decrypted file] : " + cryptFile);
+                    info.AppendText("\nFull path [encrypted file] : " + cryptFile);
                 }
                 catch (Exception ex)
                 {
@@ -337,12 +337,6 @@ namespace CryptDecrypt
                 int data;
                 while ((data = cs.ReadByte()) != -1)
                     fsOut.WriteByte((byte)data);
-
-                /*Stream stream = new MemoryStream();
-                while ((data = cs.ReadByte()) != -1)
-                    stream.WriteByte((byte)data);
-
-                pictureBox1.Image = new Bitmap(stream);*/
 
                 fsOut.Close();
                 cs.Close();
