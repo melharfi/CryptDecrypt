@@ -23,4 +23,4 @@ To decrypt the file, just select your file(s) by "Find ..." button and then clic
 
 Notice that a new file is generated when encrypting or decrypting file as the original remain the same to avoid any corruption or damaged source
 
-If you like the tool give buy me a coffe : paypal m.elharfi@gmail.com
+If you like the tool buy me a coffe : paypal m.elharfi@gmail.com
