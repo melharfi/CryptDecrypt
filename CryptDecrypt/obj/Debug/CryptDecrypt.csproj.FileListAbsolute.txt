@@ -39,7 +39,6 @@ D:\mohssine\CryptDecrypt\CryptDecrypt\obj\Debug\CryptDecrypt.exe
 D:\mohssine\CryptDecrypt\CryptDecrypt\obj\Debug\CryptDecrypt.pdb
 D:\mohssine\CryptDecrypt\CryptDecrypt\bin\Debug\CryptDecrypt.exe
 D:\mohssine\CryptDecrypt\CryptDecrypt\bin\Debug\CryptDecrypt.pdb
-D:\mohssine\CryptDecrypt\CryptDecrypt\obj\Debug\CryptDecrypt.csprojResolveAssemblyReference.cache
 D:\mohssine\CryptDecrypt\CryptDecrypt\obj\Debug\CryptDecrypt.Form1.resources
 D:\mohssine\CryptDecrypt\CryptDecrypt\obj\Debug\CryptDecrypt.Properties.Resources.resources
 D:\mohssine\CryptDecrypt\CryptDecrypt\obj\Debug\CryptDecrypt.csproj.GenerateResource.Cache
@@ -53,3 +52,4 @@ C:\Users\the-m\Desktop\CryptDecrypt\CryptDecrypt\obj\Debug\CryptDecrypt.csproj.G
 C:\Users\the-m\Desktop\CryptDecrypt\CryptDecrypt\obj\Debug\CryptDecrypt.exe
 C:\Users\the-m\Desktop\CryptDecrypt\CryptDecrypt\obj\Debug\CryptDecrypt.pdb
 C:\Users\the-m\Desktop\CryptDecrypt\CryptDecrypt\obj\Debug\CryptDecrypt.About.resources
+D:\mohssine\CryptDecrypt\CryptDecrypt\obj\Debug\CryptDecrypt.About.resources

@@ -442,7 +442,7 @@
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Form1";
-            this.Text = "Crypt Decrypt";
+            this.Text = "Crypt Decrypt 1.2";
             this.SelfKeyGeneratingPanel.ResumeLayout(false);
             this.SelfKeyGeneratingPanel.PerformLayout();
             this.AutoKeyGeneratingPanel.ResumeLayout(false);

@@ -118,7 +118,7 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="richTextBox1.Text" xml:space="preserve">
-    <value>Crypt Decrypt is a tool to encrypt and decrypt any file.
+    <value>Crypt Decrypt 1.2 is a tool to encrypt and decrypt any file.
 As there is a lot of encrypting tool all around the web, i needed to code this one especially because of my other tool which is a 2D Game Engine called MELHARFI 2D Game Engine All in one; Link : https://github.com/melharfi/MELHARFI-2D-Game-Engine
 That second engine can use an encrypted assets like pictures, sound or whatever if you would like to protect your files from being stolen or used by another one.
 But it's not limited to that 2d game engine, you still can use for any encrypting purpose as long as you respect it's criteria:

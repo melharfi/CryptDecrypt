@@ -11,6 +11,7 @@ using System.IO;
 using System.Security.Cryptography;
 using System.Runtime.InteropServices;
 using System.Diagnostics;
+using System.Threading;
 
 namespace CryptDecrypt
 {
@@ -20,14 +21,19 @@ namespace CryptDecrypt
         [System.Runtime.InteropServices.DllImport("KERNEL32.DLL", EntryPoint = "RtlZeroMemory")]
         public static extern bool ZeroMemory(IntPtr Destination, int Length);
 
-        // Function to Generate a 64 bits Key.
-        static string GenerateKey()
+        string GenerateKey()
         {
-            // Create an instance of Symetric Algorithm. Key and IV is generated automatically.
-            DESCryptoServiceProvider desCrypto = (DESCryptoServiceProvider)DESCryptoServiceProvider.Create();
+            string allChars = "→⇒↔⇔∀∃∇∈∋∝∠⊥∧⊦∨∪∴∼⊂⊃⊆⊇⊥!" + '"' + "#$%&’()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[]^_`abcdefghijklmnopqrstuvwxyz{|}~€‚ƒ„…†‡ˆ‰Š‹ŒŽ√≈‘’“”•–—™š›œžŸ¡¢£¤¥¦§¨©ª«¬®¯°±²³´µ¶·¸¹º»¼½¾¿ÀÁÂÃÄÅÆÇÈÉÊËÌÍÎÏÐÑÒÓÔÕÖ×ØÙÚÛÜÝÞßàáâãäåæçèéêëìíîïðñòóôõö÷øùúûüýþÿ℗☺☻♥♦♣♠•◘○◙♂♀♪♫☼►□■░▒▓│┤↕╣║╗╝┐└┴┬├─┼╚◄↕‼¶§▬↨↑↓→←∟↔▲▼◊╔╩╦╠═╬┘┌█▄▀■αΑβΒγΓδΔεΕζΖηΗθΘιΙκΚλΛμΜνΝξΞοΟπΠρΡσςΣτΤυΥφΦχΧψΨω¤€$¢£¥ƒ°µ<>≤≥=≈≠≡±−+×÷⁄%‰¼½¾¹²³ºªƒ′″∂∏∑√∞¬∩∧∨∫⇒⊂U∇ℕ⊆⊄∩Δ∈⊈→←➞⬇↓ꜜ⇣⇩⇓⇝⇜↭↷↶➔➤‹›➚ᘁᵥ^⋀▲►▼◄❤♥◆❖♦♢★☆✤✚✱✽✪✩•◦◃▹◂▸⁂▨▤▥▦▪◼☁□■▣☑☒✓✔✕✖✗✘«»“”◬△⌂☌☎☏✆✉✍✎✏☜☝☞☟☺☹Ϙ❝❞ᐦ≡≣☰☷☲☳☶①②③④⑤⑥⑦⑧⑨⑩❶❷❸❹❺❻❼❽❾❿ⓐⓑⓒⓓⓔⓕⓖⓗⓘⓙ▲△►▼▽◄◅";
+            string s = "";
 
-            // Use the Automatically generated key for Encryption. 
-            return ASCIIEncoding.ASCII.GetString(desCrypto.Key);
+            Random random = new Random();
+            for (int cnt = 0; cnt < 8; cnt++)
+            {
+                Thread.Sleep(20);
+                int rand = random.Next(0, allChars.Length - 1);
+                s += allChars[rand];
+            }
+            return s;
         }
 
         List<string> files;
@@ -57,6 +63,7 @@ namespace CryptDecrypt
                 pathButton.Enabled = true;
                 encryptButton.Enabled = true;
                 decryptButton.Enabled = true;
+                EncryptingTab.Enabled = true;
                 return;
             }
 
@@ -167,6 +174,7 @@ namespace CryptDecrypt
                 pathButton.Enabled = true;
                 encryptButton.Enabled = true;
                 decryptButton.Enabled = true;
+                EncryptingTab.Enabled = true;
                 return;
             }
 
@@ -267,7 +275,6 @@ namespace CryptDecrypt
                     if (autoKeyGenerationKeyTB.Text.Length == 8 && autoKeyGeneratingIVTB.Text.Length == 8)
                         break;
                 }
-                
             }
             else
             {
@@ -283,6 +290,8 @@ namespace CryptDecrypt
         ///</summary>
         ///<param name="inputFile"></param>
         ///<param name="outputFile"></param>
+        /// <param name="Key">1st key of 8 characters</param>
+        /// <param name="Iv">2nd key of 8 characters</param>
         private void EncryptFile(string inputFile, string outputFile, string Key, string Iv)
         {
             try
