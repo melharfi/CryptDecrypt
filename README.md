@@ -1,4 +1,7 @@
 # CryptDecrypt
+
+[![MIT License](https://img.shields.io/apm/l/atomic-design-ui.svg?)](https://github.com/melharfi/MELHARFI-2D-Game-Engine/blob/master/LICENSE)
+
 Tool to crypt / decrypt assets for MELHARFI game engine
 
 Hi there, using my 2d game engine to develop my current game, an RPG network 
