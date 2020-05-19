@@ -1,7 +1,7 @@
 # CryptDecrypt tool for MELHARFI 2D Game Engine
 
 [![MIT License](https://img.shields.io/apm/l/atomic-design-ui.svg?)](https://github.com/melharfi/MELHARFI-2D-Game-Engine/blob/master/LICENSE)
-[![GitHub Release](https://img.shields.io/github/release/melharfi/PlayMusic.svg?style=flat)]()  
+[![GitHub Release](https://img.shields.io/github/release/tterb/PlayMusic.svg?style=flat)](https://github.com/melharfi/MELHARFI-2D-Game-Engine)  
 
 Tool to encrypt / decrypt assets for MELHARFI 2d game engine
 
