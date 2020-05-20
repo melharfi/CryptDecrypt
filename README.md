@@ -5,6 +5,7 @@
 [![GitHub Release](https://img.shields.io/github/release/tterb/PlayMusic.svg?style=flat)](https://github.com/melharfi/CryptDecrypt/releases)
 [![PayPal](https://img.shields.io/badge/paypal-donate-yellow.svg)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=VN92ND2CDMX92)
 ![GitHub Release Date](https://img.shields.io/github/release-date/melharfi/CryptDecrypt?color=Green)
+![GitHub language count](https://img.shields.io/github/languages/count/melharfi/CryptDecrypt)
 
 Tool to encrypt / decrypt assets for MELHARFI 2d game engine
 
