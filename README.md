@@ -2,7 +2,7 @@
 
 [![MIT License](https://img.shields.io/apm/l/atomic-design-ui.svg?)](https://github.com/melharfi/MELHARFI-2D-Game-Engine/blob/master/LICENSE)
 [![Version](https://badge.fury.io/gh/tterb%2FHyde.svg)](https://github.com/melharfi/CryptDecrypt)
-[![GitHub Release](https://img.shields.io/github/release/tterb/PlayMusic.svg?style=flat)](https://github.com/melharfi/CryptDecrypt/releases)  
+[![GitHub Release](https://img.shields.io/github/release/tterb/PlayMusic.svg?style=flat)](https://github.com/melharfi/CryptDecrypt/releases)
 [![PayPal](https://img.shields.io/badge/paypal-donate-yellow.svg)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=VN92ND2CDMX92)
 
 Tool to encrypt / decrypt assets for MELHARFI 2d game engine
