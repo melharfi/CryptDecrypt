@@ -9,7 +9,7 @@
 
 Tool to encrypt / decrypt assets for MELHARFI 2d game engine
 
-Hi there, using my 2d game engine to develop my current game, an RPG network 
+Using my 2d game engine to develop my current game, an RPG network 
 https://github.com/melharfi/MELHARFI-2D-Game-Engine
 
 I need to protect its assets, so i build a small tool that use Rijndael AES encrypted algorithm
